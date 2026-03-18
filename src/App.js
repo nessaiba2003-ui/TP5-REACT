@@ -20,6 +20,16 @@ function App() {
         <h2>3. Lifting State Up</h2>
         <TemperatureConvertor />
       </section>
+      <hr />
+      <section style={{ margin: '20px 0', textAlign: 'center' }}>
+        <h2>4. Profil</h2>
+        <button 
+          onClick={() => alert('Utilisateur reconnecté !')}
+          style={{ padding: '10px 20px', backgroundColor: '#61dafb', border: 'none', borderRadius: '5px', cursor: 'pointer', fontWeight: 'bold' }}
+        >
+          Se reconnecter
+        </button>
+      </section>
     </div>
   );
 }
