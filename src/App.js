@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import FormulaireControle from './FormulaireControle';
+import FormulaireNonControle from './FormulaireNonControle';
+import TemperatureConvertor from './TemperatureConvertor';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+      <h1>TP React : Formulaires & État</h1>
+      <hr />
+      <section style={{ margin: '20px 0' }}>
+        <h2>1. Formulaire Contrôlé</h2>
+        <FormulaireControle />
+      </section>
+      <section style={{ margin: '20px 0' }}>
+        <h2>2. Formulaire Non-Contrôlé</h2>
+        <FormulaireNonControle />
+      </section>
+      <section style={{ margin: '20px 0' }}>
+        <h2>3. Lifting State Up</h2>
+        <TemperatureConvertor />
+      </section>
     </div>
   );
 }
