@@ -11,4 +11,5 @@ Formulaire Non-Contrôlé : Utilisation du hook useRef pour récupérer les donn
 Affichage et Structure : Organisation des composants pour afficher les données saisies de manière propre.
 Context API : Mise en place d'un Provider pour centraliser certaines données de l'application.
 <img width="1477" height="705" alt="image" src="https://github.com/user-attachments/assets/4514d534-b9cc-4b67-b046-bf7b5f54c458" />
+<img width="889" height="807" alt="image" src="https://github.com/user-attachments/assets/1bdc1f78-a703-4af1-9e1f-2e5f2e470370" />
 
